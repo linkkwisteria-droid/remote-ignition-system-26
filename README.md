@@ -5,8 +5,6 @@
 > - Built Date: *2026-10-27*
 > - Summary: 2026年底的點火器
 
-## 0. Page Summary
-
 ### 1. Summary
 這個專案是點火器。這裡有電路原理圖和韌體以及Markdown格式的說明書。
 
