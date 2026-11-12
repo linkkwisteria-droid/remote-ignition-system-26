@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RIS26_Library")(type "KiCad")(uri "E:/NCKU/NCKUISP/remote-ignition-system-26/hardware/libraries/RIS26_Library.kicad_sym")(options "")(descr ""))
+)
