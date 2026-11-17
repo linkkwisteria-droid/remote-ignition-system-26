@@ -359,14 +359,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "參考"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -396,6 +426,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -412,6 +450,22 @@
     [
       "60255d18-7949-433e-9694-668047c15b94",
       "Root"
+    ],
+    [
+      "df85ee98-0030-4cff-99f0-8c7a9ad82005",
+      "Power"
+    ],
+    [
+      "3c9019e9-bcf8-4d6f-a983-b50327523536",
+      "Indicators"
+    ],
+    [
+      "7aee6d91-7472-48e1-914b-3f329cb18115",
+      "Controls"
+    ],
+    [
+      "b6dbf05b-efba-4032-93e5-852c80466549",
+      "Ignition"
     ]
   ],
   "text_variables": {}
