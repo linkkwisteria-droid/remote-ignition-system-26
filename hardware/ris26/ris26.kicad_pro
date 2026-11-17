@@ -247,12 +247,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "RIS26_Library"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "console.kicad_pro",
+    "filename": "ris26.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -428,6 +426,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -442,8 +448,24 @@
   },
   "sheets": [
     [
-      "614bfa03-78ca-4726-8793-dd4ef5faf308",
+      "60255d18-7949-433e-9694-668047c15b94",
       "Root"
+    ],
+    [
+      "df85ee98-0030-4cff-99f0-8c7a9ad82005",
+      "Power"
+    ],
+    [
+      "3c9019e9-bcf8-4d6f-a983-b50327523536",
+      "Indicators"
+    ],
+    [
+      "7aee6d91-7472-48e1-914b-3f329cb18115",
+      "Controls"
+    ],
+    [
+      "b6dbf05b-efba-4032-93e5-852c80466549",
+      "Ignition"
     ]
   ],
   "text_variables": {}

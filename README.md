@@ -6,11 +6,11 @@
 > - Summary: 2026年底的點火器
 
 ### 1. Summary
-這個專案是點火器。這裡有電路原理圖和韌體以及Markdown格式的說明書。
+這個專案是點火器。這裡有電路原理圖和韌體。
 
 
 ### 2. Links
-
+- [Google Drive](https://drive.google.com/drive/folders/1G8a108MtAovM8rBFZNGf4ynVhSYMgkvS?usp=sharing)
 
 ### 3. Contents
 1. File Structure
@@ -28,11 +28,18 @@ avionics-small-1151
 ## 2. System Overview
 
 
+
+
 ## 3. References
 
 
 ## 4. Contributers
 
-|Name|Email|
-|:-|:-|
-|林冠宏|[linkk.wisteria@gmail.com](linkk.wisteria@gmail.com)|
+|Name|Responsibility|Email|
+|:-|:-|:-|
+|林冠宏|Design, System|[linkk.wisteria@gmail.com](linkk.wisteria@gmail.com)|
+|龍昊|Design||
+|蘇立原|Firmware||
+|夏良樂|Power CCT, Ignition CCT, and Firmware||
+|許菀琍|Ignition CCT, Soldering||
+|劉緯珊|Panel Design||
