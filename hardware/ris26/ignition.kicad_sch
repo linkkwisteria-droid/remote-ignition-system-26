@@ -1251,6 +1251,46 @@
 		)
 		(uuid "05b303d7-eb0e-471d-8567-245b103ee9cb")
 	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 41.656 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "492e032d-3a27-4af9-9779-7f6c9e057719")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 41.656 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "644b1ec5-1371-439b-8017-aca2921afc33")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 41.656 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "deba94d4-e30a-4b09-9376-667ca7d10ac8")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 41.402 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e28e54c0-5bce-4645-b982-e72ddc276e71")
+	)
 	(hierarchical_label "CHAN_2_STATUS"
 		(shape output)
 		(at 21.59 36.83 0)
@@ -1465,10 +1505,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb4fe6e6-a8f2-4594-b11e-1ca9893b1c1f")
+			(uuid "bb4fe6e6-a8f2-4594-b11e-1ca9893b1c20")
 		)
 		(pin "2"
-			(uuid "563631f1-2cb2-4c9f-baed-790ffb961a0f")
+			(uuid "563631f1-2cb2-4c9f-baed-790ffb961a10")
 		)
 		(instances
 			(project ""
@@ -1671,10 +1711,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb4fe6e6-a8f2-4594-b11e-1ca9893b1c1f")
+			(uuid "bb4fe6e6-a8f2-4594-b11e-1ca9893b1c21")
 		)
 		(pin "2"
-			(uuid "563631f1-2cb2-4c9f-baed-790ffb961a0f")
+			(uuid "563631f1-2cb2-4c9f-baed-790ffb961a11")
 		)
 		(instances
 			(project ""
@@ -1741,10 +1781,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb4fe6e6-a8f2-4594-b11e-1ca9893b1c1f")
+			(uuid "bb4fe6e6-a8f2-4594-b11e-1ca9893b1c22")
 		)
 		(pin "2"
-			(uuid "563631f1-2cb2-4c9f-baed-790ffb961a0f")
+			(uuid "563631f1-2cb2-4c9f-baed-790ffb961a12")
 		)
 		(instances
 			(project ""

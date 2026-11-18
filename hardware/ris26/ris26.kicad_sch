@@ -2836,7 +2836,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PCA9685 Module"
+	(text "MCP23017 Module"
 		(exclude_from_sim no)
 		(at 178.816 96.52 0)
 		(effects
@@ -2847,17 +2847,6 @@
 			(justify left)
 		)
 		(uuid "03248664-c2f7-466a-87fc-32321e8f5a37")
-	)
-	(text "Pull Up"
-		(exclude_from_sim no)
-		(at 243.586 143.764 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0395c549-bfc0-4dee-b3e6-bdd072355fd3")
 	)
 	(text "Pull Up"
 		(exclude_from_sim no)
@@ -2892,16 +2881,38 @@
 		)
 		(uuid "10c4278e-59b4-4fc9-a2d7-fc4badb98334")
 	)
-	(text "TBD"
+	(text "ADC input"
 		(exclude_from_sim no)
-		(at 247.65 141.224 0)
+		(at 115.316 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "39862998-b344-4547-9a10-625d41d6128b")
+		(uuid "17909aed-1f02-4add-87b1-1264eac27e2b")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 180.848 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33ff51e6-0ad6-4e56-8e38-027ae8e45c8e")
+	)
+	(text "ADC input"
+		(exclude_from_sim no)
+		(at 115.316 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "393de3ba-d564-406c-ac31-ce87bb86024f")
 	)
 	(text "Pull Up"
 		(exclude_from_sim no)
@@ -2916,7 +2927,18 @@
 	)
 	(text "ADC input"
 		(exclude_from_sim no)
-		(at 109.982 51.054 0)
+		(at 115.062 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49042ba1-60f4-4a78-b4c3-5c27508b2311")
+	)
+	(text "ADC input"
+		(exclude_from_sim no)
+		(at 110.49 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,6 +2946,28 @@
 			(justify left)
 		)
 		(uuid "49d6b7c3-132e-4bc0-9df1-4ef9cd021a8a")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 245.11 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55539b69-8315-4331-aea9-f865ad7d1f31")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 188.468 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d371d68-357e-4fd4-ba11-2abc5ff71d7b")
 	)
 	(text "NodeMCU32"
 		(exclude_from_sim no)
@@ -2937,17 +2981,6 @@
 		)
 		(uuid "60159539-e3db-4b40-83fd-10b7bd9991b8")
 	)
-	(text "TBD"
-		(exclude_from_sim no)
-		(at 247.65 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b07f2f2-bd95-4a3b-aaa8-c3707ec4ed39")
-	)
 	(text "Communication\n"
 		(exclude_from_sim no)
 		(at 56.642 171.958 0)
@@ -2959,7 +2992,7 @@
 		)
 		(uuid "6bdaf430-ca6d-4ff3-a6d6-8bbdcc4ace67")
 	)
-	(text "PCA9685 module is a PWM expander module, which is controlled \nby I2C portocal.\nThis module control the brightness of channel LED and \nignition LED, and the passive buuzer as well. "
+	(text "PCA9685 module is a PWM expander module, which is controlled \nby I2C protocol.\nThis module control the brightness of channel LED and \nignition LED, and the passive buzzer as well. "
 		(exclude_from_sim no)
 		(at 107.95 102.616 0)
 		(effects
@@ -2970,7 +3003,7 @@
 		)
 		(uuid "6dc63e5d-2d8b-4ee7-8f09-1f0db3b6c97e")
 	)
-	(text "3~3.3(V) are avaliable of this Zener or TVS.\nV_{BATTERY_DETECTION} = V_{Battery} / 3\nThe max current (V_{Battery}=8.4(V)) is 0.028(mA)"
+	(text "3~3.3(V) are available of this Zener or TVS.\nV_{BATTERY_DETECTION} = V_{Battery} / 3\nThe max current (V_{Battery}=8.4(V)) is 0.028(mA)"
 		(exclude_from_sim no)
 		(at 207.518 49.784 0)
 		(effects
@@ -2981,6 +3014,17 @@
 			(justify left)
 		)
 		(uuid "810ccdde-6343-44ad-8f9d-f08fcffb4208")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 190.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a023a74-0039-415b-9753-906feb92b410")
 	)
 	(text "Main Board\n"
 		(exclude_from_sim no)
@@ -2995,47 +3039,69 @@
 	)
 	(text "ADC input"
 		(exclude_from_sim no)
-		(at 116.586 53.594 0)
+		(at 115.316 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "92a76132-3d4e-4db6-ba7b-5f1b3439f6f9")
-	)
-	(text "TBD"
-		(exclude_from_sim no)
-		(at 247.65 136.398 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a04e0d64-1b63-4740-9ab7-0a3f0f894431")
-	)
-	(text "TBD"
-		(exclude_from_sim no)
-		(at 247.396 133.604 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a3d68414-a54e-4e18-9be0-16fee0aceb19")
+		(uuid "8d44d478-d38a-4f46-90b3-cbc49ac331be")
 	)
 	(text "Pull Up"
 		(exclude_from_sim no)
-		(at 188.214 45.72 0)
+		(at 245.11 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "bcd50dda-6940-4342-aa75-ea4698d2cd4a")
+		(uuid "9b8b31e3-5ecd-482c-b2bb-fc3fb2fee195")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 249.174 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9652db6-0e03-4de1-a408-98a588f2701e")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 247.904 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9977e7d-5d96-4a94-9c3b-d8a042d82072")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 245.11 147.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac1676ab-ae54-4243-b01d-6225353e8d89")
+	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 245.364 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc16a289-b42e-484a-aa63-b6faa4bbfe0a")
 	)
 	(text "PCA9685 Module"
 		(exclude_from_sim no)
@@ -3049,6 +3115,17 @@
 		)
 		(uuid "c0dabf2c-c060-436f-bac2-90e1f5f4e857")
 	)
+	(text "Pull Up"
+		(exclude_from_sim no)
+		(at 252.476 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c355e784-eaf0-49f0-906d-24d40e844a3f")
+	)
 	(text "Battery Detection"
 		(exclude_from_sim no)
 		(at 223.52 43.434 0)
@@ -3060,7 +3137,7 @@
 		)
 		(uuid "ed647e8f-43e5-4c9d-8dda-bb1baf5bde15")
 	)
-	(text "MCP2317 module is a GPIO expander module, which is controlled by \nI2C portocal.\nThis module output mode LED and status LED, input from \nchannel status(E-match status) and self-check button."
+	(text "MCP23017 module is a GPIO expander module, which is controlled by \nI2C protocol. I2C address is 0x20(A0~A2=low).\nThis module output mode LED and status LED, input from \nchannel status(E-match status) and self-check button."
 		(exclude_from_sim yes)
 		(at 179.578 102.616 0)
 		(effects
@@ -3071,16 +3148,16 @@
 		)
 		(uuid "f346c01e-1008-4fa4-819c-a1a2c0905586")
 	)
-	(text "ADC input"
+	(text "Pull Up"
 		(exclude_from_sim no)
-		(at 116.586 56.134 0)
+		(at 251.968 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f429190d-026a-4be4-a345-0b06b6b2d804")
+		(uuid "f9670922-67a1-44e5-8be0-9398f7c0e12f")
 	)
 	(junction
 		(at 232.41 73.66)
@@ -3089,24 +3166,12 @@
 		(uuid "108ff592-5e4f-4996-9b20-5577cfc00aa4")
 	)
 	(no_connect
-		(at 203.2 130.81)
-		(uuid "00aa36da-d67a-42bd-9546-b4335647ad65")
-	)
-	(no_connect
 		(at 142.24 86.36)
 		(uuid "0ae6b07b-598c-4aa9-adfd-e9625bead75f")
 	)
 	(no_connect
-		(at 172.72 73.66)
-		(uuid "0b89365e-eea2-4d1d-ad41-8b52263f74d7")
-	)
-	(no_connect
 		(at 172.72 78.74)
 		(uuid "260d227c-b419-402f-a99b-dc2c124f192e")
-	)
-	(no_connect
-		(at 142.24 60.96)
-		(uuid "273a3979-3c1e-458b-aaf5-68a15cc91802")
 	)
 	(no_connect
 		(at 142.24 73.66)
@@ -3145,32 +3210,12 @@
 		(uuid "66a476d2-4209-4d00-9325-cf04bd96554e")
 	)
 	(no_connect
-		(at 228.6 130.81)
-		(uuid "722aa93a-eaf9-423a-8ded-7677ff00ea78")
-	)
-	(no_connect
 		(at 172.72 81.28)
 		(uuid "79a6ae7e-6e7e-45a3-ba3b-6898382dfa35")
 	)
 	(no_connect
-		(at 142.24 78.74)
-		(uuid "829c5498-9891-404c-a2df-1de217de0b06")
-	)
-	(no_connect
-		(at 228.6 148.59)
-		(uuid "85fdf1cf-e8b5-4240-82fd-990c3f12d495")
-	)
-	(no_connect
-		(at 203.2 151.13)
-		(uuid "b1801536-57f5-4e2f-829e-a0764186133c")
-	)
-	(no_connect
 		(at 172.72 66.04)
 		(uuid "c2db4256-5632-4336-846f-c4a258f6e979")
-	)
-	(no_connect
-		(at 228.6 146.05)
-		(uuid "c74dd089-8e78-41e2-a672-68373c50c655")
 	)
 	(no_connect
 		(at 172.72 83.82)
@@ -3187,10 +3232,6 @@
 	(no_connect
 		(at 142.24 83.82)
 		(uuid "edbcda3b-ad64-4d0f-88b2-c67fad29d790")
-	)
-	(no_connect
-		(at 228.6 151.13)
-		(uuid "f48f166c-6f5b-4697-8818-5d30a98389e4")
 	)
 	(wire
 		(pts
@@ -3241,6 +3282,50 @@
 			(type default)
 		)
 		(uuid "e66cf747-9b36-4152-b3ff-6f75c58f31ef")
+	)
+	(global_label "CTRL_MODE_DUAL"
+		(shape input)
+		(at 228.6 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00df219b-06c3-44c0-b66e-26cc47a3106b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.9742 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHAN_3_IGNITION"
+		(shape output)
+		(at 142.24 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01f68c49-5d91-4a09-82d7-7e71ddc4359a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.047 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LED_ARM_IGNITER"
 		(shape output)
@@ -3310,7 +3395,7 @@
 	)
 	(global_label "CHAN_4_STATUS"
 		(shape output)
-		(at 76.2 152.4 0)
+		(at 76.2 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3320,7 +3405,7 @@
 		)
 		(uuid "0eda1887-7c19-4361-8015-e5471c43f84e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.1228 152.4 0)
+			(at 94.1228 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,28 +3437,6 @@
 			)
 		)
 	)
-	(global_label "CHAN_1_STATUS"
-		(shape input)
-		(at 228.6 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f5d1d63-e246-4129-9ae2-f086ee4b4758")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.5228 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_CHAN_4_G"
 		(shape output)
 		(at 152.4 130.81 0)
@@ -3387,6 +3450,28 @@
 		(uuid "1206e205-89a8-4260-be1b-5badff43534f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.3746 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_MODE_CONSOLE"
+		(shape output)
+		(at 76.2 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "120f5f31-b85d-4b52-a6ab-751ba96756db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5051 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3505,7 @@
 	)
 	(global_label "CTRL_COUNT"
 		(shape output)
-		(at 36.83 118.11 180)
+		(at 36.83 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3430,7 +3515,29 @@
 		)
 		(uuid "1624206d-039b-45a5-8968-d4345916dd24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.1124 118.11 0)
+			(at 22.1124 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_CHAN_2"
+		(shape output)
+		(at 36.83 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c19096d-a01c-4ad0-9eb2-85c8bd3d4833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.1448 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,28 +3565,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHAN_2_STATUS"
-		(shape input)
-		(at 228.6 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1f460117-1336-48fd-86a9-9e1387ca0d35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.5228 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3616,9 +3701,31 @@
 			)
 		)
 	)
+	(global_label "CHAN_2_IGNITION"
+		(shape output)
+		(at 142.24 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29a37662-ec72-4204-a57c-85444dddf99f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.047 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CHAN_2_STATUS"
 		(shape output)
-		(at 36.83 152.4 180)
+		(at 36.83 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3628,7 +3735,7 @@
 		)
 		(uuid "2cccd642-fc1c-479a-8661-6f975260664f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9072 152.4 0)
+			(at 18.9072 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3747,7 @@
 	)
 	(global_label "CHAN_2_IGNITION"
 		(shape input)
-		(at 36.83 149.86 180)
+		(at 36.83 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3650,34 +3757,12 @@
 		)
 		(uuid "31e7fd32-2dce-4e22-a441-719256123bb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.637 149.86 0)
+			(at 17.637 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CTRL_MODE"
-		(shape output)
-		(at 76.2 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3317eda8-003f-4963-8d40-f6e8b88c3114")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.8894 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3704,9 +3789,9 @@
 			)
 		)
 	)
-	(global_label "CHAN_2_IGNITION"
+	(global_label "CTRL_CHAN_3"
 		(shape output)
-		(at 142.24 68.58 180)
+		(at 36.83 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3714,9 +3799,9 @@
 			)
 			(justify right)
 		)
-		(uuid "389ddf94-1e86-4f6a-92ce-bc79137ce20f")
+		(uuid "348d1c7f-e431-407c-ae20-b707a3a870a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.047 68.58 0)
+			(at 21.1448 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,24 +3855,24 @@
 			)
 		)
 	)
-	(global_label "CTRL_MODE"
+	(global_label "CTRL_MODE_WIFI"
 		(shape input)
-		(at 142.24 55.88 180)
+		(at 228.6 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "439a7c13-8afc-4d62-bd5b-982ac715705f")
+		(uuid "4d9beece-6bc3-44e4-a406-46b041e0954f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.5506 55.88 0)
+			(at 247.0066 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3805,6 +3890,28 @@
 		(uuid "4fabe399-439c-4968-9b5d-c2eb1d29a1be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.0254 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHAN_1_STATUS"
+		(shape input)
+		(at 142.24 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "520aa759-3189-4060-93c2-4f334bd0fb1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.3172 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +4011,7 @@
 	)
 	(global_label "CHAN_4_IGNITION"
 		(shape input)
-		(at 76.2 149.86 0)
+		(at 76.2 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3914,7 +4021,51 @@
 		)
 		(uuid "57fe521a-c905-49c4-9746-fe9f648d860d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.393 149.86 0)
+			(at 95.393 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_MODE_CONSOLE"
+		(shape input)
+		(at 228.6 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59c02da7-60fb-4f30-9bb1-8666fae8b2ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.9051 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_CHAN_2"
+		(shape input)
+		(at 228.6 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bb2303a-54ca-4887-8788-78b591efae30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.2852 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,50 +4141,6 @@
 			)
 		)
 	)
-	(global_label "BATTERY_DETECTION"
-		(shape input)
-		(at 142.24 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "615a4443-8cf0-4e0d-8467-cb30f3d98784")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.4468 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHAN_4_STATUS"
-		(shape input)
-		(at 228.6 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61e1a048-48f0-4aec-8d5b-8558ffdde05b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.5228 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_MODE_IGNITER"
 		(shape input)
 		(at 36.83 55.88 180)
@@ -4056,9 +4163,31 @@
 			)
 		)
 	)
+	(global_label "INT_MCP23017"
+		(shape input)
+		(at 172.72 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "668590f1-492e-4bbf-b5d2-dd48ce723398")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6146 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CHAN_1_IGNITION"
 		(shape input)
-		(at 36.83 142.24 180)
+		(at 36.83 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4068,7 +4197,29 @@
 		)
 		(uuid "68f57f3c-a535-410f-b878-e5be1c951ef1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.637 142.24 0)
+			(at 17.637 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_CHAN_4"
+		(shape output)
+		(at 36.83 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c77b354-6518-404b-b879-b86b5603f840")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.1448 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4253,29 @@
 	)
 	(global_label "+7.5V_BATTERY"
 		(shape input)
-		(at 36.83 110.49 180)
+		(at 76.2 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e2be79f-140b-4a9e-9e00-eb2984f919f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.639 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHAN_4_STATUS"
+		(shape input)
+		(at 142.24 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4110,9 +4283,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6e2be79f-140b-4a9e-9e00-eb2984f919f4")
+		(uuid "73573bfd-99af-420a-9c2c-e7c0b500461c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.391 110.49 0)
+			(at 124.3172 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,28 +4313,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CTRL_CHAN"
-		(shape input)
-		(at 142.24 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75f2b5d3-e83d-40d7-8f98-3c8eb57aa1f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.7319 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4210,9 +4361,31 @@
 			)
 		)
 	)
+	(global_label "CHAN_2_STATUS"
+		(shape input)
+		(at 142.24 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77e45423-3093-478e-bbfb-65a29291259a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.3172 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CHAN_1_STATUS"
 		(shape output)
-		(at 36.83 144.78 180)
+		(at 36.83 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4222,56 +4395,12 @@
 		)
 		(uuid "78d5d32f-a8a2-40c8-a061-dbe6488cfb56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9072 144.78 0)
+			(at 18.9072 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHAN_3_IGNITION"
-		(shape output)
-		(at 142.24 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b3b94b1-7d8a-48ba-b107-6f35cf82f66a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.047 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CTRL_CHECK"
-		(shape input)
-		(at 228.6 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b5b61f2-76b7-428f-b889-e4704c59c054")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.378 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4366,7 +4495,7 @@
 	)
 	(global_label "CHAN_3_IGNITION"
 		(shape input)
-		(at 76.2 142.24 0)
+		(at 76.2 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4376,7 +4505,7 @@
 		)
 		(uuid "8581609b-ca95-4193-97c1-8db20a130ceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.393 142.24 0)
+			(at 95.393 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,9 +4647,75 @@
 			)
 		)
 	)
+	(global_label "BATTERY_DETECTION"
+		(shape input)
+		(at 142.24 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a19ae52f-c7a9-4a11-993b-5b17bb9e669c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.4468 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_CHAN_4"
+		(shape input)
+		(at 228.6 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1e0d52e-c4ad-4c7e-b6cc-8c9e9a3471db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.2852 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_CHAN_3"
+		(shape input)
+		(at 228.6 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a398f3a0-f975-430c-81b6-783d5393b57c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.2852 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CTRL_ARM"
 		(shape output)
-		(at 36.83 115.57 180)
+		(at 36.83 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4530,7 +4725,7 @@
 		)
 		(uuid "a7989d9f-f019-4fc4-a153-2c8c1f8c90a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.5315 115.57 0)
+			(at 24.5315 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,6 +4748,28 @@
 		(uuid "a85cfd39-afbd-4a1d-bfb0-afdf798f445b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.5957 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHAN_3_STATUS"
+		(shape input)
+		(at 142.24 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8738c8e-ae2c-42ca-88ce-08270cbe2910")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.3172 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,24 +4889,24 @@
 			)
 		)
 	)
-	(global_label "CHAN_3_STATUS"
-		(shape input)
-		(at 228.6 135.89 0)
+	(global_label "CHAN_4_IGNITION"
+		(shape output)
+		(at 142.24 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b787423a-a766-4ff4-a456-aa721d8f8eae")
+		(uuid "b903e1cb-6463-4ec5-8268-0fe5dc20bfa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.5228 135.89 0)
+			(at 123.047 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4712,6 +4929,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_MODE_IGNITER"
+		(shape output)
+		(at 76.2 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc9e01ec-c0a3-4dba-8942-ff30ae1a91ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.0537 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHAN_1_IGNITION"
+		(shape output)
+		(at 142.24 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf4ba0df-79b4-4703-8963-c87675dc9274")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.047 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4740,7 +5001,7 @@
 	)
 	(global_label "CHAN_3_STATUS"
 		(shape output)
-		(at 76.2 144.78 0)
+		(at 76.2 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4750,7 +5011,7 @@
 		)
 		(uuid "c0749e3f-da33-44c8-9117-d2701478e096")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.1228 144.78 0)
+			(at 94.1228 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +5067,7 @@
 	)
 	(global_label "CTRL_IGNITION"
 		(shape output)
-		(at 36.83 120.65 180)
+		(at 36.83 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4816,7 +5077,7 @@
 		)
 		(uuid "c6c45c59-6686-4837-b44d-a40e0ab6ff1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.298 120.65 0)
+			(at 20.298 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,9 +5087,31 @@
 			)
 		)
 	)
+	(global_label "CTRL_CHAN_1"
+		(shape input)
+		(at 228.6 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c748c8e9-8085-4c8d-aa51-2cbdea402db5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.2852 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+7.5V_SWITCH"
 		(shape output)
-		(at 76.2 110.49 0)
+		(at 76.2 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4838,7 +5121,7 @@
 		)
 		(uuid "c75a6941-8ddd-4aa7-b52d-373c0ab8874f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.6714 110.49 0)
+			(at 92.6714 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,9 +5153,9 @@
 			)
 		)
 	)
-	(global_label "CTRL_CHAN"
-		(shape output)
-		(at 76.2 118.11 0)
+	(global_label "CTRL_MODE_IGNITER"
+		(shape input)
+		(at 228.6 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4880,9 +5163,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d05595ef-37ce-48ee-8b46-56a6c8ee9ddf")
+		(uuid "cb9eef0e-c2e8-4703-a4e5-930c5885f02d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.7081 118.11 0)
+			(at 250.4537 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,9 +5175,9 @@
 			)
 		)
 	)
-	(global_label "DAQ"
+	(global_label "INT_MCP23017"
 		(shape output)
-		(at 142.24 58.42 180)
+		(at 203.2 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4902,9 +5185,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d2f45235-4c3d-4ff0-bcf9-e099c735cd4a")
+		(uuid "d3156364-6d46-47fd-978c-6410ff3daff0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.5657 58.42 0)
+			(at 186.3054 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,9 +5307,9 @@
 			)
 		)
 	)
-	(global_label "CHAN_1_IGNITION"
+	(global_label "DAQ"
 		(shape output)
-		(at 142.24 71.12 180)
+		(at 142.24 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5034,9 +5317,31 @@
 			)
 			(justify right)
 		)
-		(uuid "dca9fdb8-da57-495f-9cff-889aa21bec25")
+		(uuid "e0a3579a-4eb8-427a-836e-eb9618b50d94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.047 71.12 0)
+			(at 135.5657 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_CHAN_1"
+		(shape output)
+		(at 36.83 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea47974c-91f2-4b3d-9aed-b9f9bbb5bb3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.1448 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,6 +5483,28 @@
 			)
 		)
 	)
+	(global_label "CTRL_CHECK"
+		(shape input)
+		(at 203.2 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4959d80-92a8-44d7-884e-6455cc270e56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.422 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_CHAN_2_B"
 		(shape output)
 		(at 127 138.43 180)
@@ -5244,24 +5571,68 @@
 			)
 		)
 	)
-	(global_label "CHAN_4_IGNITION"
+	(global_label "CTRL_MODE_DUAL"
 		(shape output)
-		(at 142.24 63.5 180)
+		(at 76.2 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f924022d-9c42-4a69-a009-04a5222374fc")
+		(uuid "f887f737-d778-4865-9c16-f7be53871bd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.047 63.5 0)
+			(at 95.5742 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT_MCP23017"
+		(shape output)
+		(at 228.6 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa800b9a-d583-45b1-817a-ebcdf3e4af4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.4946 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_MODE_WIFI"
+		(shape output)
+		(at 76.2 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa8d8a2f-cc6b-4ac7-9004-96e799723f83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6066 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5328,7 +5699,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 179.07 153.67) (xy 179.07 106.68) (xy 252.73 106.68) (xy 252.73 153.67)
+				(xy 179.07 153.67) (xy 179.07 106.68) (xy 276.86 106.68) (xy 276.86 153.67)
 			)
 			(stroke
 				(width 0.2)
@@ -8069,7 +8440,7 @@
 	)
 	(sheet
 		(at 36.83 106.68)
-		(size 39.37 17.78)
+		(size 39.37 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8084,7 +8455,7 @@
 		)
 		(uuid "7aee6d91-7472-48e1-914b-3f329cb18115")
 		(property "Sheetname" "Controls"
-			(at 36.83 104.0634 0)
+			(at 36.83 103.9396 0)
 			(effects
 				(font
 					(size 5.08 5.08)
@@ -8094,7 +8465,7 @@
 			)
 		)
 		(property "Sheetfile" "controls.kicad_sch"
-			(at 36.83 125.0446 0)
+			(at 36.83 132.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8113,7 +8484,7 @@
 			)
 		)
 		(pin "CTRL_ARM" output
-			(at 36.83 115.57 180)
+			(at 36.83 110.49 180)
 			(uuid "852b5e60-5349-40a8-9886-1970eed57eb4")
 			(effects
 				(font
@@ -8123,7 +8494,7 @@
 			)
 		)
 		(pin "CTRL_COUNT" output
-			(at 36.83 118.11 180)
+			(at 36.83 113.03 180)
 			(uuid "af264053-b146-4c52-aa32-21abe94b8cc7")
 			(effects
 				(font
@@ -8133,7 +8504,7 @@
 			)
 		)
 		(pin "CTRL_IGNITION" output
-			(at 36.83 120.65 180)
+			(at 36.83 115.57 180)
 			(uuid "3a870597-8d64-4ac9-9316-10e8f1891b03")
 			(effects
 				(font
@@ -8143,17 +8514,17 @@
 			)
 		)
 		(pin "+7.5V_BATTERY" input
-			(at 36.83 110.49 180)
+			(at 76.2 110.49 0)
 			(uuid "f25e46e3-1241-4d7b-a328-441460a11a7a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "+7.5V_SWITCH" output
-			(at 76.2 110.49 0)
+			(at 76.2 113.03 0)
 			(uuid "102ed366-e90d-45e9-a391-54c2e432ceda")
 			(effects
 				(font
@@ -8162,9 +8533,49 @@
 				(justify right)
 			)
 		)
-		(pin "CTRL_CHAN" output
-			(at 76.2 118.11 0)
-			(uuid "f9f3a976-31d4-4112-b1f0-8c1211112990")
+		(pin "CTRL_CHAN_1" output
+			(at 36.83 120.65 180)
+			(uuid "acf19d1e-be63-4410-a5aa-10547d732084")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_CHAN_2" output
+			(at 36.83 123.19 180)
+			(uuid "db1067d8-8029-4493-9f4c-5c4de595fa1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_CHAN_3" output
+			(at 36.83 125.73 180)
+			(uuid "47804996-ca9e-4f6e-82f4-e0edb90ccd45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_CHAN_4" output
+			(at 36.83 128.27 180)
+			(uuid "ff6413ad-0d32-4c19-af00-18995a8a7b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_MODE_CONSOLE" output
+			(at 76.2 120.65 0)
+			(uuid "63fd1a2c-8276-4794-92d0-e524ddf5935a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,9 +8583,29 @@
 				(justify right)
 			)
 		)
-		(pin "CTRL_MODE" output
-			(at 76.2 120.65 0)
-			(uuid "4b404ae0-2005-4356-9d4c-4fcd1d4a78d5")
+		(pin "CTRL_MODE_DUAL" output
+			(at 76.2 125.73 0)
+			(uuid "c5d45ede-4d72-4e08-a858-4472062d0f5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTRL_MODE_IGNITER" output
+			(at 76.2 123.19 0)
+			(uuid "e90a82df-e323-4051-ab71-f72ec9869bd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTRL_MODE_WIFI" output
+			(at 76.2 128.27 0)
+			(uuid "d5b3e829-c328-45c3-a00d-74b3f855766e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8622,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 138.43)
+		(at 36.83 146.05)
 		(size 39.37 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8207,7 +8638,7 @@
 		)
 		(uuid "b6dbf05b-efba-4032-93e5-852c80466549")
 		(property "Sheetname" "Ignition"
-			(at 36.83 135.6896 0)
+			(at 36.83 143.3096 0)
 			(effects
 				(font
 					(size 5.08 5.08)
@@ -8217,7 +8648,7 @@
 			)
 		)
 		(property "Sheetfile" "ignition.kicad_sch"
-			(at 36.83 156.9184 0)
+			(at 36.83 164.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +8657,7 @@
 			)
 		)
 		(pin "CHAN_1_IGNITION" input
-			(at 36.83 142.24 180)
+			(at 36.83 149.86 180)
 			(uuid "b8e9995f-ab9e-4334-9748-fb6966c495e5")
 			(effects
 				(font
@@ -8236,7 +8667,7 @@
 			)
 		)
 		(pin "CHAN_1_STATUS" output
-			(at 36.83 144.78 180)
+			(at 36.83 152.4 180)
 			(uuid "1087390b-b787-47ee-8ac2-277c7759104d")
 			(effects
 				(font
@@ -8246,7 +8677,7 @@
 			)
 		)
 		(pin "CHAN_2_IGNITION" input
-			(at 36.83 149.86 180)
+			(at 36.83 157.48 180)
 			(uuid "602cd0df-ce2a-416b-ac32-69be54628503")
 			(effects
 				(font
@@ -8256,7 +8687,7 @@
 			)
 		)
 		(pin "CHAN_2_STATUS" output
-			(at 36.83 152.4 180)
+			(at 36.83 160.02 180)
 			(uuid "ea4cd5fd-f846-4185-a8f4-5f408a69b1ff")
 			(effects
 				(font
@@ -8266,7 +8697,7 @@
 			)
 		)
 		(pin "CHAN_3_IGNITION" input
-			(at 76.2 142.24 0)
+			(at 76.2 149.86 0)
 			(uuid "d1aecdc1-04f9-4f6b-9840-31f100f377e3")
 			(effects
 				(font
@@ -8276,7 +8707,7 @@
 			)
 		)
 		(pin "CHAN_3_STATUS" output
-			(at 76.2 144.78 0)
+			(at 76.2 152.4 0)
 			(uuid "23b838aa-33a0-4768-9720-69f6c76bf132")
 			(effects
 				(font
@@ -8286,7 +8717,7 @@
 			)
 		)
 		(pin "CHAN_4_IGNITION" input
-			(at 76.2 149.86 0)
+			(at 76.2 157.48 0)
 			(uuid "0119cca2-e523-4348-9bde-d1936d0181bf")
 			(effects
 				(font
@@ -8296,7 +8727,7 @@
 			)
 		)
 		(pin "CHAN_4_STATUS" output
-			(at 76.2 152.4 0)
+			(at 76.2 160.02 0)
 			(uuid "a96a98d2-ded4-4155-a0c4-d50f98a03e4e")
 			(effects
 				(font
