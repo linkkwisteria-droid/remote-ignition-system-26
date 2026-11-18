@@ -1874,7 +1874,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "The channel LED brightness is 100% when its channel is chosen, \n75% when its channel is stand by.\n\nRed, unavaliable, chosen.\nBlack, unavaliable, stand by.\nYellow, valiable, chosen.\nGreen, valiable, stand by."
+	(text "The channel LED brightness is 100% when its channel is chosen, \n75% when its channel is stand by.\n\nRed, unavailable, chosen.\nBlack, unavailable, stand by.\nYellow, valiable, chosen.\nGreen, valiable, stand by."
 		(exclude_from_sim no)
 		(at 19.812 48.514 0)
 		(effects
