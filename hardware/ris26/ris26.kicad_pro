@@ -263,7 +263,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "New_Library"
+    ]
   },
   "meta": {
     "filename": "ris26.kicad_pro",
@@ -478,6 +480,9 @@
     ],
     "used_designators": "#PWR9,#PWR11,#PWR45-46",
     "variants": []
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
   },
   "sheets": [
     [
